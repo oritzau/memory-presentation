@@ -11,9 +11,8 @@ int main() {
     str[4] = 'o';
     str[5] = '\0'; //indicates end of a string
     //str now has a value, "hello"
+    printf(str);
     free(str); //frees up the memory used by str
-    //str no longer has a value 
-    //if we attempt to use it beyond this point the compiler will throw an error
-
+    
     return 0;
 }
