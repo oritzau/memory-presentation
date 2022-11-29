@@ -13,6 +13,6 @@ int main() {
     //str now has a value, "hello"
     printf(str);
     free(str); //frees up the memory used by str
-    
+    //if we try to access str now, we'll get some random characters due to the weird ways C interacts with unallocated memory
     return 0;
 }
