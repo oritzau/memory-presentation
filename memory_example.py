@@ -7,11 +7,11 @@ john = Person(25, "male")
 print(john)
 
 # What you see:
-# str = "Hello World"
+str = "Hello World"
 
 # # What your computer sees:
-# str = "Hello World" 
-# str_address = 0x1f94753b8b0 #Don't let this crazy string of numbers and letters spook you!
+str = "Hello World" 
+str_address = 0x1f94753b8b0 #Don't let this crazy string of numbers and letters spook you!
 # #The computer recognizes the line above as an address in the physical memory of your computer
 # #now that address has a value "Hello World", and can be used elsewhere
 
